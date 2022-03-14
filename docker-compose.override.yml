@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  forfarmingcase:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:DefaultConnection=Server=userdb,1433;Database=UserDb; User=sa; Password=Password12*"
+    ports:
+      - "5000:80"
+    depends_on:
+      - userdb
+    #volumes:
+     #  - "/Users/oguzhankaya/Projects/forfarmingcase"
+     # - ~/.aspnet/https:/root/.aspnet/https:ro
+     # - ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+    
+
+  userdb:
+    container_name: userdb
+    restart: always
+    ports:
+      - "1433:1433"
+    volumes:
+       - userdb_volume:/var/opt/mssql
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Password12*

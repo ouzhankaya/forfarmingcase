@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{F044BCFD-B89F-4239-8505-A9004CFAA1FC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="docker-compose.override.yml">
+    <Files>
+      <File FileName="docker-compose.override.yml" Line="13" Column="54" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="forfarmingcase" expanded="True">
+            <Node name="forfarmingcase" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="docker-compose.yml" expanded="True">
+                <Node name="docker-compose.override.yml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.forfarmingcase PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

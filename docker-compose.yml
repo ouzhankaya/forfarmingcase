@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  userdb:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+
+  forfarmingcase:
+    image: ${DOCKER_REGISTRY-}forfarmingcase
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+
+volumes:
+  userdb_volume:
